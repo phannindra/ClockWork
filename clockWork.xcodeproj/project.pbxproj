@@ -15,6 +15,10 @@
 		BBDD8AB822C5D82900A9B5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDD8AB622C5D82900A9B5AD /* LaunchScreen.storyboard */; };
 		BBDD8AC322C5D82900A9B5AD /* clockWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD8AC222C5D82900A9B5AD /* clockWorkTests.swift */; };
 		BBDD8ACE22C5D82900A9B5AD /* clockWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD8ACD22C5D82900A9B5AD /* clockWorkUITests.swift */; };
+		BBDD8ADD22C5D92900A9B5AD /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD8ADB22C5D92900A9B5AD /* TimeCell.swift */; };
+		BBDD8ADE22C5D92900A9B5AD /* TimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBDD8ADC22C5D92900A9B5AD /* TimeCell.xib */; };
+		BBDD8AE122C5DA4800A9B5AD /* timeCellAdder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDD8ADF22C5DA4800A9B5AD /* timeCellAdder.swift */; };
+		BBDD8AE222C5DA4800A9B5AD /* timeCellAdder.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBDD8AE022C5DA4800A9B5AD /* timeCellAdder.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		BBDD8AC922C5D82900A9B5AD /* clockWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clockWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDD8ACD22C5D82900A9B5AD /* clockWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockWorkUITests.swift; sourceTree = "<group>"; };
 		BBDD8ACF22C5D82900A9B5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDD8ADB22C5D92900A9B5AD /* TimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
+		BBDD8ADC22C5D92900A9B5AD /* TimeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeCell.xib; sourceTree = "<group>"; };
+		BBDD8ADF22C5DA4800A9B5AD /* timeCellAdder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeCellAdder.swift; sourceTree = "<group>"; };
+		BBDD8AE022C5DA4800A9B5AD /* timeCellAdder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = timeCellAdder.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				BBDD8AAA22C5D82700A9B5AD /* AppDelegate.swift */,
-				BBDD8AAC22C5D82700A9B5AD /* ViewController.swift */,
 				BBDD8AAE22C5D82700A9B5AD /* Main.storyboard */,
+				BBDD8AAC22C5D82700A9B5AD /* ViewController.swift */,
+				BBDD8ADF22C5DA4800A9B5AD /* timeCellAdder.swift */,
+				BBDD8AE022C5DA4800A9B5AD /* timeCellAdder.xib */,
+				BBDD8ADB22C5D92900A9B5AD /* TimeCell.swift */,
+				BBDD8ADC22C5D92900A9B5AD /* TimeCell.xib */,
 				BBDD8AB422C5D82900A9B5AD /* Assets.xcassets */,
 				BBDD8AB622C5D82900A9B5AD /* LaunchScreen.storyboard */,
 				BBDD8AB922C5D82900A9B5AD /* Info.plist */,
@@ -232,8 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDD8ADE22C5D92900A9B5AD /* TimeCell.xib in Resources */,
 				BBDD8AB822C5D82900A9B5AD /* LaunchScreen.storyboard in Resources */,
 				BBDD8AB522C5D82900A9B5AD /* Assets.xcassets in Resources */,
+				BBDD8AE222C5DA4800A9B5AD /* timeCellAdder.xib in Resources */,
 				BBDD8AB022C5D82700A9B5AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDD8ADD22C5D92900A9B5AD /* TimeCell.swift in Sources */,
 				BBDD8AAD22C5D82700A9B5AD /* ViewController.swift in Sources */,
+				BBDD8AE122C5DA4800A9B5AD /* timeCellAdder.swift in Sources */,
 				BBDD8AB322C5D82700A9B5AD /* clockWork.xcdatamodeld in Sources */,
 				BBDD8AAB22C5D82700A9B5AD /* AppDelegate.swift in Sources */,
 			);
